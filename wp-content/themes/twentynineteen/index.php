@@ -20,6 +20,7 @@ get_header();
 	<section id="primary" class="content-area">
 		<main id="main" class="site-main">
 		<div>This is a test</div>
+		<div>This is a test too</div>
 
 		<?php
 		if ( have_posts() ) {
