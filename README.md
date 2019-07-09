@@ -1,0 +1,1 @@
+# bethshalom-wp
