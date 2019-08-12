@@ -14,7 +14,7 @@
 </div>
 
 <nav><!-- Navigation Bar --> 
-<ul>
+<ul class="nav-list">
     <li class="dropdown">
       <a href="javascript:void(0)" class="dropbtn">About Us</a>
       <div class="dropdown-content">

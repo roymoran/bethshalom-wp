@@ -20,19 +20,18 @@ body {
   }
   
   /* Navigator */
-  ul {
+  .nav-list {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #46882E; /* Color of Navigation Bar */
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
   }
   
-  li {
-    float: left;
-  }
-  
-  li a, .dropbtn {
+   li a, .dropbtn {
     display: inline-block;
     color: white; /* Color of Text in Navigation Bar */
     text-align: center; /* Placement of Navigation Bar */
