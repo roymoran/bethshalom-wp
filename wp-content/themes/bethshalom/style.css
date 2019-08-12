@@ -1,3 +1,73 @@
 /*
 Theme Name: Beth Shalom Theme
 */
+/* CSS */
+
+/* Style the body */
+body {
+    font-family: Arial; 
+    margin: 0;
+  }
+  
+  /* Header/Logo Title */
+  .header {
+    padding: 20px;
+    text-align: left; /* Placement of Navigation Bar */
+    background: #ffffff; /* Background color of header*/
+    color: rgb(0, 0, 0); /* Color of Text*/
+    font-size: 20px; 
+    
+  }
+  
+  /* Navigator */
+  .nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #46882E; /* Color of Navigation Bar */
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+  }
+  
+   li a, .dropbtn {
+    display: inline-block;
+    color: white; /* Color of Text in Navigation Bar */
+    text-align: center; /* Placement of Navigation Bar */
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover, .dropdown:hover .dropbtn {
+    background-color: rgb(0, 75, 25); /* Color of Navigation Bar when it is being hovered over */
+  }
+  
+  li.dropdown {
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9; /* Color of dropdown background*/
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); /* Color of background when hovering over dropdown */
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black; /* Color of text in the dropdown*/
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left; /* Placement of text in dropdown */
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1;}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  
