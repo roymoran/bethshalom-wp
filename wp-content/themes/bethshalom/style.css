@@ -2,6 +2,34 @@
 Theme Name: Beth Shalom Theme
 */
 
+/*
+ * Following are the fonts used across the Beth Shalom
+ * website.
+ */
+ @font-face {
+  font-family: "Avenir Book";
+  src: url("./fonts/Avenir/Avenir-Book.woff") format("woff"),
+       url("./fonts/Avenir/Avenir-Book.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "Avenir Heavy";
+  src: url("./fonts/Avenir/Avenir-Heavy.woff") format("woff"),
+       url("./fonts/Avenir/Avenir-Heavy.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "Avenir Medium";
+  src: url("./fonts/Avenir/Avenir-Medium.woff") format("woff"),
+       url("./fonts/Avenir/Avenir-Medium.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "Lora Bold";
+  src: url("./fonts/Lora/Lora-Bold.woff") format("woff"),
+       url("./fonts/Lora/Lora-Bold.ttf") format("ttf");
+}
+
 /* CSS */
 
 /* Style the body */
