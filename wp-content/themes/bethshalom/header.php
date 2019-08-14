@@ -22,7 +22,7 @@
         <a href="#studies">Studies</a>
         <a href="#media">Media</a>
       <li><a href="#committees">Committees</a></li>     
-      <li><a href="#calendar">Calenedar</a></li>
+      <li><a href="#calendar">Calendar</a></li>
       <li><a href="#services">Services</a></li>
       <li><a href="#donate">Donate</a></li>
       <li><a href="#contactus">Contact Us</a></li>
@@ -37,4 +37,5 @@
           </li>
       </div>
     </li>
-  </ul></nav>
+  </ul>
+</nav>
