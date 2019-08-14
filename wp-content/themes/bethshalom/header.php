@@ -18,21 +18,21 @@
     <li class="dropdown">
       <a href="javascript:void(0)" class="dropbtn">About Us</a>
       <div class="dropdown-content">
-        <a href="#history">History</a>
-        <a href="#studies">Studies</a>
-        <a href="#media">Media</a>
-      <li><a href="#committees">Committees</a></li>     
-      <li><a href="#calendar">Calendar</a></li>
-      <li><a href="#services">Services</a></li>
-      <li><a href="#donate">Donate</a></li>
-      <li><a href="#contactus">Contact Us</a></li>
-      <li><a href="#blog">Blog</a></li>
+        <a href="#history">HISTORY</a>
+        <a href="#studies">STUDIES</a>
+        <a href="#media">MEDIA</a>
+      <li><a href="#committees">COMMITTEES</a></li>     
+      <li><a href="#calendar">CALENDAR</a></li>
+      <li><a href="#services">SERVICES</a></li>
+      <li><a href="#donate">DONATE</a></li>
+      <li><a href="#contactus">CONTACT US</a></li>
+      <li><a href="#blog">BLOG</a></li>
       <li class="dropdown">
           <a href="javascript:void(0)" class="dropbtn">Resources</a>
           <div class="dropdown-content">
-            <a href="#gallery">Gallery</a>
-            <a href="#lunarmonth">Lunar Month Learning</a>
-            <a href="#israelite">Israelite Black Jews</a>
+            <a href="#gallery">GALLERY</a>
+            <a href="#lunarmonth">LUNAR MONTH LEARNING</a>
+            <a href="#israelite">ISRAELITE BLACK JEWS</a>
             </div>
           </li>
       </div>
