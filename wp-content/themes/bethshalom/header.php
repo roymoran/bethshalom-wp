@@ -16,7 +16,7 @@
 <nav><!-- Navigation Bar --> 
 <ul class="nav-list">
     <li class="dropdown">
-      <a href="javascript:void(0)" class="dropbtn">About Us</a>
+      <a href="javascript:void(0)" class="dropbtn">ABOUT US</a>
       <div class="dropdown-content">
         <a href="#history">HISTORY</a>
         <a href="#studies">STUDIES</a>
@@ -28,7 +28,7 @@
       <li><a href="#contactus">CONTACT US</a></li>
       <li><a href="#blog">BLOG</a></li>
       <li class="dropdown">
-          <a href="javascript:void(0)" class="dropbtn">Resources</a>
+          <a href="javascript:void(0)" class="dropbtn">RESOURCES</a>
           <div class="dropdown-content">
             <a href="#gallery">GALLERY</a>
             <a href="#lunarmonth">LUNAR MONTH LEARNING</a>
