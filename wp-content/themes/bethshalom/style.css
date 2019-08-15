@@ -53,6 +53,8 @@ body {
   margin: 0;
   padding: 0;
   overflow: hidden;
+  font-family: "Avenir Book"; 
+  font-size: 20px;
   background-color: #46882e; /* Color of Navigation Bar */
   display: flex;
   justify-content: space-around;
@@ -84,7 +86,9 @@ li.dropdown {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #f9f9f9; /* Color of dropdown background*/
+  font-family: "Avenir Book"; 
+  font-size: 20px;
+  background-color: #fff7ae; /* Color of dropdown background*/
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2); /* Color of background when hovering over dropdown */
   z-index: 1;
@@ -99,7 +103,7 @@ li.dropdown {
 }
 
 .dropdown-content a:hover {
-  background-color: #f1f1f1;
+  background-color: #f3eba5;
 }
 
 .dropdown:hover .dropdown-content {
