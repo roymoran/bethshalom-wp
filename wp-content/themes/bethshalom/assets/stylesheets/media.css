@@ -1,0 +1,71 @@
+.media-section {
+  padding: 46px 0 60px 0;
+}
+
+.media-section .title {
+  padding-bottom: 15px;
+  padding-top: 15px;
+  align-self: flex-start;
+  padding-left: 60px;
+}
+.magazine-section,
+.radio-section,
+.video-section {
+  align-self: flex-start;
+  padding-left: 60px;
+}
+
+.magazine-section a {
+  font-family: "Avenir Book";
+  font-size: 18px;
+  line-height: 25px;
+  text-decoration: underline;
+  color: #252525;
+}
+
+.radio-section {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.radio-section a {
+  font-family: "Avenir Medium";
+  font-size: 18px;
+  line-height: 25px;
+  padding-bottom: 24px;
+
+  color: #000000;
+  text-decoration-line: none;
+}
+
+.video-section {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.video-section a {
+  font-family: "Avenir Medium";
+  font-size: 18px;
+  line-height: 25px;
+  padding-bottom: 24px;
+
+  color: #000000;
+  text-decoration-line: none;
+}
+
+.gallery-section {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.gallery {
+  padding: 0 20px 0 20px;
+  width: 80%;
+  text-align: center;
+}
+
+.gallery-img {
+  padding: 30px;
+}
