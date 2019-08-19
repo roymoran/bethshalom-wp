@@ -27,7 +27,11 @@
 
     <div class="subtitle">YOUTH INVOLVEMENT</div>
     <div class="subtitle-details">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et odio at leo pulvinar finibus. Cras eu iaculis est. Sed in dapibus sem, vel aliquet neque.</div>
-
+    <ul>
+        <li> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et odio at leo pulvinar finibus. Cras eu iaculis est. Sed in dapibus sem, vel aliquet neque.</li>
+        <li> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et odio at leo pulvinar finibus. Cras eu iaculis est. Sed in dapibus sem, vel aliquet neque.</li>
+        <li> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et odio at leo pulvinar finibus. Cras eu iaculis est. Sed in dapibus sem, vel aliquet neque.</li>
+    </ul>
     <div class="subtitle">ZUMBA CLASS</div>
     <div class="subtitle-details">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et odio at leo pulvinar finibus. Cras eu iaculis est. Sed in dapibus sem, vel aliquet neque. Sed sed mauris porta, tempor ex non, tempor purus. Pellentesque commodo facilisis tempus. Curabitur placerat elementum porta. Aenean dictum dui ex, vitae mattis ligula feugiat a.</div>
 
