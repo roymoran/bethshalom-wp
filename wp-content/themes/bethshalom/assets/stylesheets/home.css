@@ -1,0 +1,158 @@
+.section {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.section .title {
+  font-family: "Avenir Medium", sans-serif;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 66px;
+  text-align: center;
+  color: #4aaa28;
+}
+
+.slider-section {
+  min-height: 385px;
+  background-image: url("../images/Sanctuary-70.jpg");
+  background-position: center;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.slider-info-container {
+  background: rgba(255, 255, 255, 0.5);
+  min-height: 243px;
+  width: 80%;
+}
+
+.slider-info {
+  padding: 46px 20px 41px 81px;
+}
+
+.slider-info .title {
+  font-family: "Lora Bold";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 46px;
+  min-height: 55px;
+  color: #000000;
+}
+
+.slider-info .description {
+  font-family: "Avenir Book";
+  font-size: 18px;
+  line-height: 25px;
+
+  color: #252525;
+}
+
+.services-section,
+.donate-section {
+  background: #fff7ae;
+}
+
+.services-section .service-details {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  width: 100%;
+  padding-bottom: 56px;
+}
+
+.services-section .title {
+  padding: 66px 0 20px 0;
+}
+
+.services-section aside {
+  font-family: source-sans-pro, sans-serif;
+  font-weight: 300;
+  width: 258px;
+  padding: 20px;
+}
+
+.events-section .events-details {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+.events-section .title {
+  padding: 33px 0 35px 0;
+}
+
+.events-section a {
+  font-family: "Avenir Medium";
+  font-size: 18px;
+  line-height: 25px;
+  text-decoration-line: underline;
+
+  color: #000000;
+  padding: 0 0 35px 0;
+}
+
+.events-details {
+  padding-bottom: 21px;
+}
+
+.events-details img {
+  object-fit: cover;
+  padding: 15px;
+}
+
+.home-section .info {
+  font-family: source-sans-pro, sans-serif;
+  font-weight: 600;
+  width: 80%;
+  padding-bottom: 42px;
+}
+
+.home-section .title {
+  padding: 47px 0 42px 0;
+}
+
+.donate-section .donate-details {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  padding-bottom: 92px;
+}
+
+.donate-section .title {
+  padding: 66px 0 57px 0;
+}
+
+.donate-details p {
+  font-family: source-sans-pro, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  color: #252525;
+  width: 60%;
+}
+
+.donate-button {
+  background-color: #ff3d3d;
+  border: none;
+  font-family: "Avenir Book";
+  font-size: 24px;
+  line-height: 33px;
+  color: #ffffff;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 40px;
+  min-width: 242px;
+  height: 58px;
+  padding-bottom: 10px;
+}
