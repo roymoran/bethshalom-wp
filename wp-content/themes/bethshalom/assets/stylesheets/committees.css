@@ -1,0 +1,42 @@
+.committee-section {
+  padding: 46px 0 60px 0;
+}
+
+.committee-info {
+  font-family: "Avenir Book";
+  font-size: 18px;
+  line-height: 25px;
+  padding: 25px 0 25px 0;
+  color: #252525;
+  width: 80%;
+}
+
+.committee-section .title {
+  align-self: flex-start;
+  width: 100%;
+  padding: 0 0 42px 0;
+}
+
+.committee-section .subtitle {
+  font-family: "Avenir Book";
+  font-size: 30px;
+  line-height: 41px;
+  padding-bottom: 7px;
+  align-self: flex-start;
+  width: 80%;
+  margin: 0 auto;
+
+  color: #ff3d3d;
+}
+
+.committee-section .subtitle-details {
+  font-family: "Avenir Book";
+  font-size: 18px;
+  line-height: 25px;
+  padding-bottom: 7px;
+  align-self: flex-start;
+  width: 80%;
+  margin: 0 auto;
+
+  color: #252525;
+}

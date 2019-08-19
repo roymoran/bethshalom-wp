@@ -133,7 +133,7 @@ li.dropdown {
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
-  padding-bottom: 20px;
+  padding: 0 10px 20px 10px;
 }
 
 .page-header hr {
