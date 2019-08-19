@@ -24,6 +24,14 @@ function load_stylesheets()
     // Enque stylesheet for committees pages
     wp_register_style('committees-page', get_template_directory_uri() . '/assets/stylesheets/committees.css', array(), false, 'all');
     wp_enqueue_style('committees-page');
+
+    // Enque stylesheet for media pages
+    wp_register_style('media-page', get_template_directory_uri() . '/assets/stylesheets/media.css', array(), false, 'all');
+    wp_enqueue_style('media-page');
+
+    // Enque stylesheet for media pages
+    wp_register_style('studying-here-page', get_template_directory_uri() . '/assets/stylesheets/studying-here.css', array(), false, 'all');
+    wp_enqueue_style('studying-here-page');
 }
 
 add_action('wp_enqueue_scripts', 'load_stylesheets');
