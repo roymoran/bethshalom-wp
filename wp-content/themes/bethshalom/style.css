@@ -174,3 +174,108 @@ li.dropdown {
   line-height: 27px;
 }
 
+* {
+  box-sizing: border-box;
+}
+
+/*Blog Header*/
+.page-header {
+  background-image: url("https://live.staticflickr.com/3414/5776907157_a7566d2fe5_b.jpg");
+  background-position: center;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  min-height: 268px;
+}
+
+.page-header div {
+  font-family: "Lora Bold", serif;
+  font-size: 60px;
+  line-height: 77px;
+  color: #252525;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.page-header hr {
+  height: 3px;
+  border: none;
+  color: #252525;
+  background-color: #252525;
+  text-align: center;
+  width: 621px;
+}
+
+/*Information text*/
+.info-section {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  min-height: 217px;
+  background:#fff7ae ;
+  color: #252525;
+  padding:40px 120px 15px 120px;
+}
+
+.info-section-content {
+  font-family: "Avenir Book";
+  font-size: 18px;
+  line-height: 27px;
+}
+
+
+/* Place Holder Image */
+.placeimg {
+  background-color: #aaa;
+  padding: 20px;
+  height:200px;
+  width: 200px;
+  float: left;
+  border-style: solid;
+}
+
+/* Add a card effect for blog */
+.blog{
+   background-color:  white;
+   padding:20px 300px 50px 300px;
+   margin-top: 20px;
+   float: left;
+}
+
+.blog-title {
+  font-family: "Lora Bold";
+  color: #252525;
+  font-size: 18px;
+  line-height: 27px;
+  float: left;
+  margin: 0px 0px 0px 20px;
+}
+
+.blog-sample {
+  font-family: "Avenir Medium";
+  padding: 35px 5px 15px 5px;
+  font-size: 18px;
+  color: #252525;
+  line-height: 27px; 
+  margin: 0px 0px 0px 215px;
+}
+
+.blog-link {
+  font-family: "Avenir Medium";
+  font-size: 18px;
+  color: #252525;
+  line-height: 27px; 
+  margin: 0px 0px 0px 220px;
+
+}
+
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+   width: 100%;
+   padding: 0;
+}
