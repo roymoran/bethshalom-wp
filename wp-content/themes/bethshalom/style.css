@@ -32,6 +32,10 @@ Theme Name: Beth Shalom Theme
 
 /* CSS */
 
+.yellow-section {
+  background: #fff7ae;
+}
+
 /* Style the body */
 body {
   font-family: Arial;
@@ -169,3 +173,4 @@ li.dropdown {
   font-size: 18px;
   line-height: 27px;
 }
+

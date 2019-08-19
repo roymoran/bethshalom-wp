@@ -12,6 +12,10 @@ function load_stylesheets()
     // Enque stylesheet for homepage 
     wp_register_style('home', get_template_directory_uri() . '/assets/stylesheets/home.css', array(), false, 'all');
     wp_enqueue_style('home');
+
+    // Enque stylesheet for about page 
+    wp_register_style('about-page', get_template_directory_uri() . '/assets/stylesheets/about.css', array(), false, 'all');
+    wp_enqueue_style('about-page');
 }
 
 add_action('wp_enqueue_scripts', 'load_stylesheets');
