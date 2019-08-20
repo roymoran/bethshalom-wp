@@ -32,6 +32,10 @@ Theme Name: Beth Shalom Theme
 
 /* CSS */
 
+.yellow-section {
+  background: #fff7ae;
+}
+
 /* Style the body */
 body {
   font-family: Arial;
@@ -53,7 +57,7 @@ body {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  font-family: "Avenir Book"; 
+  font-family: "Avenir Book";
   font-size: 20px;
   background-color: #46882e; /* Color of Navigation Bar */
   display: flex;
@@ -86,9 +90,9 @@ li.dropdown {
 .dropdown-content {
   display: none;
   position: absolute;
-  font-family: "Avenir Book"; 
+  font-family: "Avenir Book";
   font-size: 20px;
-  background-color: #fff7ae; /* Color of dropdown background*/
+  background-color: #fff6a6; /* Color of dropdown background*/
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2); /* Color of background when hovering over dropdown */
   z-index: 1;
@@ -129,7 +133,7 @@ li.dropdown {
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
-  padding-bottom: 20px;
+  padding: 0 10px 20px 10px;
 }
 
 .page-header hr {
