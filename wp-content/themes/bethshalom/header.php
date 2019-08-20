@@ -22,7 +22,7 @@
         <a href="#studies">STUDIES</a>
         <a href="#media">MEDIA</a>
       <li><a href="#committees">COMMITTEES</a></li>     
-      <li><a href="#calendar">CALENDAR</a></li>
+      <li><a href="calendar-page.php">CALENDAR</a></li>
       <li><a href="#services">SERVICES</a></li>
       <li><a href="#donate">DONATE</a></li>
       <li><a href="#contactus">CONTACT US</a></li>

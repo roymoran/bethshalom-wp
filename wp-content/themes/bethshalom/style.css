@@ -231,6 +231,7 @@ li.dropdown {
   height:200px;
   width: 200px;
   float: left;
+  margin: 40px 60px 40px 160px;
   border-style: solid;
   box-sizing: border-box;
 
@@ -239,7 +240,6 @@ li.dropdown {
 /* Add a card effect for blog */
 .blog{
    background-color:  white;
-   padding:20px 300px 50px 300px;
    margin-top: 20px;
    float: left;
    box-sizing: border-box;
@@ -252,18 +252,17 @@ li.dropdown {
   font-size: 18px;
   line-height: 27px;
   float: left;
-  margin: 0px 0px 0px 20px;
+  margin: 40px 0px 0px 0px;
   box-sizing: border-box;
 
 }
 
 .blog-sample {
   font-family: "Avenir Medium";
-  padding: 35px 5px 15px 5px;
   font-size: 18px;
   color: #252525;
   line-height: 27px; 
-  margin: 0px 0px 0px 215px;
+  margin: 85px 50px 0px 0px;
   box-sizing: border-box;
 
 }
@@ -273,8 +272,9 @@ li.dropdown {
   font-size: 18px;
   color: #252525;
   line-height: 27px; 
-  margin: 0px 0px 0px 220px;
+  margin: 40px 0px 0px 0px;
   box-sizing: border-box;
 
 
 }
+
