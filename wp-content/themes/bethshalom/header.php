@@ -12,30 +12,5 @@
   <h1>Beth Shalom B'Nai Zaken</h1>
 
 </div>
-
-<nav><!-- Navigation Bar --> 
-<ul class="nav-list">
-    <li class="dropdown">
-      <a href="javascript:void(0)" class="dropbtn">ABOUT US</a>
-      <div class="dropdown-content">
-        <a href="#history">HISTORY</a>
-        <a href="#studies">STUDIES</a>
-        <a href="#media">MEDIA</a>
-      <li><a href="#committees">COMMITTEES</a></li>     
-      <li><a href="#calendar">CALENDAR</a></li>
-      <li><a href="#services">SERVICES</a></li>
-      <li><a href="#donate">DONATE</a></li>
-      <li><a href="#contactus">CONTACT US</a></li>
-      <li><a href="#blog">BLOG</a></li>
-      <li class="dropdown">
-          <a href="javascript:void(0)" class="dropbtn">RESOURCES</a>
-          <div class="dropdown-content">
-            <a href="#gallery">GALLERY</a>
-            <a href="#lunarmonth">LUNAR MONTH LEARNING</a>
-            <a href="#israelite">ISRAELITE BLACK JEWS</a>
-            </div>
-          </li>
-      </div>
-    </li>
-  </ul>
-</nav>
+<!-- Navigation Bar --> 
+<?php wp_nav_menu( array( 'theme_location' => 'header-menu', 'container' => 'nav', 'container_class' => '','menu_class' => 'nav-list' ) ); ?>
