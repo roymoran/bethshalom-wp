@@ -219,3 +219,40 @@ li.menu-item-has-children {
   font-size: 18px;
   line-height: 27px;
 }
+
+/* Footer CSS */ 
+footer {
+    display: flex;
+    min-height: 400px;
+    flex-flow: row wrap;
+    background-color: #387823;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #ffffff;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.social-icon {
+    padding-right: 15px;
+}
+
+.site-title {
+    padding-bottom: 15px;
+}
+
+.map-container { 
+    display: flex; 
+    align-items: center;
+}
+
+.links-title { 
+    text-decoration: underline;
+}
+
+.address { 
+    padding: 10px;
+}
