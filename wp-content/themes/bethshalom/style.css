@@ -173,3 +173,108 @@ li.dropdown {
   font-size: 18px;
   line-height: 27px;
 }
+
+/*Blog Header*/
+.blog-header {
+  background-image: url("https://live.staticflickr.com/3414/5776907157_a7566d2fe5_b.jpg");
+  background-position: center;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  min-height: 268px;
+}
+
+.blog-header div {
+  font-family: "Lora Bold", serif;
+  font-size: 60px;
+  line-height: 77px;
+  color: #252525;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.blog-header hr {
+  height: 3px;
+  border: none;
+  color: #252525;
+  background-color: #252525;
+  text-align: center;
+  width: 621px;
+}
+
+/*Information text*/
+.blog-info-section {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  min-height: 217px;
+  background:#fff7ae ;
+  color: #252525;
+  padding:40px 120px 15px 120px;
+}
+
+.blog-info-section-content {
+  font-family: "Avenir Book";
+  font-size: 18px;
+  line-height: 27px;
+}
+
+
+/* Place Holder Image */
+.placeimg {
+  background-color: #aaa;
+  padding: 20px;
+  height:200px;
+  width: 200px;
+  float: left;
+  border-style: solid;
+  box-sizing: border-box;
+
+}
+
+/* Add a card effect for blog */
+.blog{
+   background-color:  white;
+   padding:20px 300px 50px 300px;
+   margin-top: 20px;
+   float: left;
+   box-sizing: border-box;
+
+}
+
+.blog-title {
+  font-family: "Lora Bold";
+  color: #252525;
+  font-size: 18px;
+  line-height: 27px;
+  float: left;
+  margin: 0px 0px 0px 20px;
+  box-sizing: border-box;
+
+}
+
+.blog-sample {
+  font-family: "Avenir Medium";
+  padding: 35px 5px 15px 5px;
+  font-size: 18px;
+  color: #252525;
+  line-height: 27px; 
+  margin: 0px 0px 0px 215px;
+  box-sizing: border-box;
+
+}
+
+.blog-link {
+  font-family: "Avenir Medium";
+  font-size: 18px;
+  color: #252525;
+  line-height: 27px; 
+  margin: 0px 0px 0px 220px;
+  box-sizing: border-box;
+
+
+}
