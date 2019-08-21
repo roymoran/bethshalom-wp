@@ -57,6 +57,11 @@ body {
   padding-right: 20px;
 }
 
+.header a {
+  text-decoration: none;
+  color: inherit;
+}
+
 /* Navigator */
 .nav-list {
   list-style-type: none;
@@ -226,7 +231,7 @@ li.menu-item-has-children {
   line-height: 27px;
 }
 
-/* Footer CSS */ 
+/* Footer CSS */
 footer {
   display: flex;
   min-height: 400px;
