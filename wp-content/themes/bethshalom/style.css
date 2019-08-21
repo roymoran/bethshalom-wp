@@ -44,11 +44,17 @@ body {
 
 /* Header/Logo Title */
 .header {
-  padding: 20px;
+  font-family: "Avenir Book";
+  line-height: 49px;
+  color: #252525;
+  padding: 0 0 0 20px;
   text-align: left; /* Placement of Navigation Bar */
   background: #ffffff; /* Background color of header*/
-  color: rgb(0, 0, 0); /* Color of Text*/
   font-size: 20px;
+}
+
+.header img {
+  padding-right: 20px;
 }
 
 /* Navigator */
@@ -222,37 +228,37 @@ li.menu-item-has-children {
 
 /* Footer CSS */ 
 footer {
-    display: flex;
-    min-height: 400px;
-    flex-flow: row wrap;
-    background-color: #387823;
-    justify-content: space-evenly;
-    align-items: center;
-    color: #ffffff;
+  display: flex;
+  min-height: 400px;
+  flex-flow: row wrap;
+  background-color: #387823;
+  justify-content: space-evenly;
+  align-items: center;
+  color: #ffffff;
 }
 
 a {
-    color: #ffffff;
-    text-decoration: none;
+  color: #ffffff;
+  text-decoration: none;
 }
 
 .social-icon {
-    padding-right: 15px;
+  padding-right: 15px;
 }
 
 .site-title {
-    padding-bottom: 15px;
+  padding-bottom: 15px;
 }
 
-.map-container { 
-    display: flex; 
-    align-items: center;
+.map-container {
+  display: flex;
+  align-items: center;
 }
 
-.links-title { 
-    text-decoration: underline;
+.links-title {
+  text-decoration: underline;
 }
 
-.address { 
-    padding: 10px;
+.address {
+  padding: 10px;
 }
