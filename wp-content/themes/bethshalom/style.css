@@ -44,11 +44,22 @@ body {
 
 /* Header/Logo Title */
 .header {
-  padding: 20px;
+  font-family: "Avenir Book";
+  line-height: 49px;
+  color: #252525;
+  padding: 0 0 0 20px;
   text-align: left; /* Placement of Navigation Bar */
   background: #ffffff; /* Background color of header*/
-  color: rgb(0, 0, 0); /* Color of Text*/
   font-size: 20px;
+}
+
+.header img {
+  padding-right: 20px;
+}
+
+.header a {
+  text-decoration: none;
+  color: inherit;
 }
 
 /* Navigator */
@@ -282,6 +293,7 @@ li.menu-item-has-children {
   padding-top: 74px;
   padding-bottom: 64px;
 }
+
 /* Footer CSS */
 footer {
   display: flex;
