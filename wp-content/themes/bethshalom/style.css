@@ -231,6 +231,69 @@ li.menu-item-has-children {
   line-height: 27px;
 }
 
+/* Add a card effect for blog */
+.blog-page {
+  background-color: white;
+  margin-top: 20px;
+  float: left;
+  box-sizing: border-box;
+}
+
+.blog-title {
+  font-family: "Avenir Book";
+  font-size: 30px;
+  line-height: 41px;
+
+  color: #000000;
+}
+
+.blog-sample {
+  font-family: "Avenir Book";
+  font-size: 15px;
+  line-height: 20px;
+  color: #252525;
+}
+
+.blog-link {
+  font-family: "Avenir Medium";
+  font-size: 12px;
+  line-height: 16px;
+  text-decoration-line: underline;
+
+  color: #000000 !important;
+}
+
+.blog-section {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.blog-post {
+  display: flex;
+  flex-flow: row wrap;
+  padding-bottom: 60px;
+}
+
+.blog-post img {
+  align-self: flex-start;
+  padding-right: 20px;
+}
+
+.blog-post-details {
+  display: flex;
+  flex-flow: column wrap;
+  width: 80%;
+}
+.blog-section-header {
+  font-family: "Avenir Book";
+  font-size: 18px;
+  line-height: 25px;
+
+  color: #252525;
+  padding-top: 74px;
+  padding-bottom: 64px;
+}
+
 /* Footer CSS */
 footer {
   display: flex;
@@ -242,7 +305,7 @@ footer {
   color: #ffffff;
 }
 
-a {
+footer a {
   color: #ffffff;
   text-decoration: none;
 }
