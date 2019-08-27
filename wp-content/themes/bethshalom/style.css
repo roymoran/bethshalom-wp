@@ -305,7 +305,7 @@ footer {
   color: #ffffff;
 }
 
-footer a {
+a {
   color: #ffffff;
   text-decoration: none;
 }
@@ -316,17 +316,18 @@ footer a {
 
 .site-title {
   padding-bottom: 15px;
+  font-family: "Lora Bold";
 }
 
-.map-container {
-  display: flex;
+.map-container { 
+  display: flex; 
   align-items: center;
 }
-
-.links-title {
+.links-title { 
   text-decoration: underline;
+  font-family: "Avenir Heavy";
 }
-
-.address {
+.address { 
   padding: 10px;
+  font-family: "Avenir Heavy";
 }
