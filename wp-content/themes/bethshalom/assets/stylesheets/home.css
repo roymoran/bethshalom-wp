@@ -1,6 +1,6 @@
 .section {
   display: flex;
-  flex-flow: column wrap;
+  flex-flow: row wrap;
   justify-content: center;
   align-items: center;
 }
@@ -15,19 +15,245 @@
 }
 
 .slider-section {
+  display: inline-block;
   min-height: 385px;
+  position: relative;
+}
+
+.slider-indicators {
+  position: absolute;
+  bottom: 0px;
+  right: calc(50% - 15px);
+  padding-bottom: 15px;
+}
+
+.slider-indicators img {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.hidden {
+  display: none;
+}
+
+.slide-1 {
+  height: 385px;
   background-image: url("../images/Sanctuary-70.jpg");
   background-position: center;
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: flex-start;
-  align-items: center;
+  background-repeat: no-repeat;
+  float: left;
+
+  -webkit-animation: slide1 20s infinite; /* Safari 4.0 - 8.0 */
+  animation: slide1 20s infinite;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes slide1 {
+  /* visible 8s */
+  0% {
+    width: 100vw;
+  }
+
+  20% {
+    width: 100vw;
+  }
+
+  /* transition to invisible  14s */
+  25% {
+    width: 0vw;
+  }
+
+  75% {
+    width: 0vw;
+  }
+
+  /* transition to visible 8s */
+  80% {
+    width: 100vw;
+  }
+
+  100% {
+    width: 100vw;
+  }
+}
+
+/* Standard syntax */
+@keyframes slide1 {
+   /* visible 8s */
+   0% {
+    width: 100vw;
+  }
+
+  20% {
+    width: 100vw;
+  }
+
+  /* transition to invisible  14s */
+  25% {
+    width: 0vw;
+  }
+
+  75% {
+    width: 0vw;
+  }
+
+  /* transition to visible 8s */
+  80% {
+    width: 100vw;
+  }
+
+  100% {
+    width: 100vw;
+  }
+}
+
+.slide-2 {
+  height: 385px;
+  background-image: url("../images/Sanctuary-70.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  float: left;
+
+  -webkit-animation: slide2 20s infinite; /* Safari 4.0 - 8.0 */
+  animation: slide2 20s infinite;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes slide2 {
+  /* visible 8s */
+  0% {
+    width: 0vw;
+  }
+
+  20% {
+    width: 0vw;
+  }
+
+  /* transition to invisible  14s */
+  25% {
+    width: 100vw;
+  }
+
+  45% {
+    width: 100vw;
+  }
+
+  /* transition to visible 8s */
+  50% {
+    width: 0vw;
+  }
+
+  100% {
+    width: 0vw;
+  }
+}
+
+/* Standard syntax */
+@keyframes slide2 {
+  /* visible 8s */
+  0% {
+    width: 0vw;
+  }
+
+  20% {
+    width: 0vw;
+  }
+
+  /* transition to invisible  14s */
+  25% {
+    width: 100vw;
+  }
+
+  50% {
+    width: 100vw;
+  }
+
+  /* transition to visible 8s */
+  55% {
+    width: 0vw;
+  }
+
+  100% {
+    width: 0vw;
+  }
+}
+
+.slide-3 {
+  height: 385px;
+  background-image: url("../images/Sanctuary-70-copy.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  float: left;
+
+  -webkit-animation: slide3 20s infinite; /* Safari 4.0 - 8.0 */
+  animation: slide3 20s infinite;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes slide3 {
+  /* visible 8s */
+  0% {
+    width: 0vw;
+  }
+
+  50% {
+    width: 0vw;
+  }
+
+  /* transition to invisible  14s */
+  55% {
+    width: 100vw;
+  }
+
+  75% {
+    width: 100vw;
+  }
+
+  /* transition to visible 8s */
+  80% {
+    width: 0vw;
+  }
+
+  100% {
+    width: 0vw;
+  }
+}
+
+/* Standard syntax */
+@keyframes slide3 {
+  /* visible 8s */
+  0% {
+    width: 0vw;
+  }
+
+  50% {
+    width: 0vw;
+  }
+
+  /* transition to invisible  14s */
+  55% {
+    width: 100vw;
+  }
+
+  75% {
+    width: 100vw;
+  }
+
+  /* transition to visible 8s */
+  80% {
+    width: 0vw;
+  }
+
+  100% {
+    width: 0vw;
+  }
 }
 
 .slider-info-container {
   background: rgba(255, 255, 255, 0.5);
-  min-height: 243px;
+  max-height: 243px;
   width: 80%;
+  overflow: auto;
 }
 
 .slider-info {
