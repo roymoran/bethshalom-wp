@@ -1,6 +1,6 @@
 <section class="slider-section">
-    <div class="slide-1">
-        <div class="slider-info-container">
+    <div class="slide-1" style="background-image: url('<?php echo get_template_directory_uri() ?>/assets/images/Sanctuary-70.jpg');">
+        <div class="slider-info-container" >
             <div class="slider-info">
                 <div class="title">Welcome!</div>
                 <div class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et odio at leo pulvinar finibus. Cras eu iaculis est. Sed in dapibus sem, vel aliquet neque. Sed sed mauris porta, tempor ex non, tempor purus. Pellentesque commodo facilisis tempus. Curabitur placerat elementum porta. Aenean dictum dui ex, vitae mattis ligula feugiat a.</div>
@@ -8,7 +8,7 @@
         </div>
     </div>
 
-    <div class="slide-2">
+    <div class="slide-2" style="background-image: url('<?php echo get_template_directory_uri() ?>/assets/images/Sanctuary-70.jpg');">
         <div class="slider-info-container">
             <div class="slider-info">
                 <div class="title">Slide 2</div>
@@ -17,7 +17,7 @@
         </div>
     </div>
 
-    <div class="slide-3">
+    <div class="slide-3" style="background-image: url('<?php echo get_template_directory_uri() ?>/assets/images/Sanctuary-70.jpg');">
         <div class="slider-info-container">
             <div class="slider-info">
                 <div class="title">Slide 3</div>
@@ -25,6 +25,7 @@
             </div>
         </div>
     </div>
+    
     <div class="slider-indicators">
         <img src="<?php echo get_template_directory_uri() ?>/assets/images/indicator.svg" alt="placeholder" />
         <img src="<?php echo get_template_directory_uri() ?>/assets/images/indicator.svg" alt="placeholder" />
