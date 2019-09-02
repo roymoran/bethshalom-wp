@@ -14,7 +14,10 @@
 }
 
 .holy-dates-section {
-  padding: 37px 0 0 62px;
+  display: flex;
+  flex-flow: column wrap;
+
+  padding: 37px 0 62px 62px;
   font-family: "Avenir Book";
   font-size: 20px;
   line-height: 27px;

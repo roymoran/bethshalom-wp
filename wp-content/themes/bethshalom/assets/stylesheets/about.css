@@ -18,18 +18,23 @@
 }
 
 .leader {
-  padding: 20px;
+  padding-bottom: 54px;
 }
 
 .leader img {
+  align-self: flex-start;
   padding: 15px;
 }
 
 .leader-bio {
-  font-family: source-sans-pro, sans-serif;
+  font-family: "Avenir Book";
   font-size: 18px;
   line-height: 23px;
   width: 70%;
+}
+
+.leader-bio span {
+  font-family: "Avenir Medium";
 }
 
 .notable-events-section .title { 
@@ -61,11 +66,29 @@
 }
 
 .event .description {
-  font-family: source-sans-pro, sans-serif;
+  font-family: "Avenir Book", sans-serif;
+  align-self: center;
   font-size: 18px;
   line-height: 23px;
   width: 70%;
   text-align: left;
+}
+
+.event .description .title, .event-reverse .description-reverse .title  {
+  font-family: source-sans-pro, sans-serif;
+  font-weight: bold;
+  font-style: italic;
+  text-decoration: underline;
+  font-size: 18px;
+  line-height: 23px;
+  width: 70%;
+  text-align: left;
+  color: #000000;
+  padding-bottom: 20px;
+}
+
+.event .description .details, .event-reverse .description-reverse .details {
+  padding-top: 40px;
 }
 
 .event-reverse .description-reverse {
