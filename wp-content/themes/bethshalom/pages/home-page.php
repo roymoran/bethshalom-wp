@@ -74,13 +74,13 @@
         <img src="<?php echo get_template_directory_uri() ?>/assets/images/rect.svg" alt="placeholder" />
         <img src="<?php echo get_template_directory_uri() ?>/assets/images/rect.svg" alt="placeholder" />
     </div>
-    <a href="#">View All In Calendar</a>
+    <a href="<?php echo esc_url( get_permalink( get_page_by_title( 'calendar' ) ) ); ?>">View All In Calendar</a>
 </section>
 
 <section class="section donate-section">
     <div class="title">DONATE TO OUR CAUSE</div>
     <div class="donate-details">
-        <button class="donate-button">DONATE TODAY</button>
+        <button class="donate-button"><a href="<?php echo esc_url( get_permalink( get_page_by_title( 'donate' ) ) ); ?>">DONATE TODAY</a></button>
         <p>Beth Sahlom B’Nai Zaken EHC’s operation and outreach activities are wholly supported by giving members and friends. Contributions can be made fvia Paypal to one of many different funds.</p>
     </div>
 </section>
