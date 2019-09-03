@@ -351,6 +351,12 @@ footer a {
   padding-inline-start: 0;
 }
 
+.footer-nav-links ul {
+  list-style: none;
+  margin: 0;
+  padding-inline-start: 0;
+}
+
 .footer-links-title {
   font-family: "Avenir Book";
   font-style: normal;
