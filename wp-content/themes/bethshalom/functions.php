@@ -32,6 +32,10 @@ function load_stylesheets()
     // Enque stylesheet for media pages
     wp_register_style('studying-here-page', get_template_directory_uri() . '/assets/stylesheets/studying-here.css', array(), false, 'all');
     wp_enqueue_style('studying-here-page');
+
+    // Enque stylesheet for history page
+    wp_register_style('history-page', get_template_directory_uri() . '/assets/stylesheets/history.css', array(), false, 'all');
+    wp_enqueue_style('history-page');
 }
 
 function register_my_menus()
