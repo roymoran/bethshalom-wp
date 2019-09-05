@@ -74,12 +74,12 @@ function register_contact()
 
         if (mail($recipient, $subject, $txt, $headers)) {
             echo "<p>Thank you for contacting us, $name. You will get a reply within 24 hours.</p>";
-            header("Location: "."http://{$_SERVER['HTTP_HOST']}{$_SERVER['REQUEST_URI']}"); 
-            exit();
+            # header("Location: "."http://{$_SERVER['HTTP_HOST']}{$_SERVER['REQUEST_URI']}"); 
+            # exit();
         } else {
             echo '<p>We are sorry but the email did not go through.</p>';
-            header("Location: "."http://{$_SERVER['HTTP_HOST']}{$_SERVER['REQUEST_URI']}"); 
-            exit();
+            # header("Location: "."http://{$_SERVER['HTTP_HOST']}{$_SERVER['REQUEST_URI']}"); 
+            # exit();
         }
     }
 }
