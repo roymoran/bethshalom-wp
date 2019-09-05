@@ -315,6 +315,12 @@ footer a {
 }
 
 .site-title {
+  font-family: "Avenir Book";
+  font-size: 36px;
+  line-height: 49px;
+
+  color: #ffffff;
+
   padding-bottom: 15px;
 }
 
@@ -323,10 +329,41 @@ footer a {
   align-items: center;
 }
 
-.links-title {
-  text-decoration: underline;
+.address {
+  font-family: "Avenir Book";
+  font-size: 11px;
+  line-height: 15px;
+
+  color: #ffffff;
+  padding: 10px;
 }
 
-.address {
+.footer-nav-links-container {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
   padding: 10px;
+}
+
+.footer-nav-links {
+  list-style: none;
+  margin: 0;
+  padding-inline-start: 0;
+}
+
+.footer-nav-links ul {
+  list-style: none;
+  margin: 0;
+  padding-inline-start: 0;
+}
+
+.footer-links-title {
+  font-family: "Avenir Book";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  text-decoration-line: underline;
+
+  color: #ffffff;
 }

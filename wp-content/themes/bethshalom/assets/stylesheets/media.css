@@ -1,4 +1,9 @@
 .media-section {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+
   padding: 46px 0 60px 0;
 }
 
@@ -28,14 +33,23 @@
   flex-flow: column wrap;
 }
 
+.radio-section .details {
+  font-family: "Avenir Medium";
+  font-size: 18px;
+  line-height: 25px;
+
+  color: #000000;
+  text-decoration-line: none;
+}
+
 .radio-section a {
   font-family: "Avenir Medium";
   font-size: 18px;
   line-height: 25px;
   padding-bottom: 24px;
-
+  font-weight: bold;
   color: #000000;
-  text-decoration-line: none;
+  text-decoration-line: underline;
 }
 
 .video-section {
@@ -43,14 +57,43 @@
   flex-flow: column wrap;
 }
 
-.video-section a {
-  font-family: "Avenir Medium";
+.video-section .show-list {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.video-section .details {
+  font-family: "Avenir Book";
   font-size: 18px;
   line-height: 25px;
-  padding-bottom: 24px;
 
   color: #000000;
-  text-decoration-line: none;
+}
+
+.video-section .details span {
+  text-decoration-line: underline;
+}
+
+.video-section .show-details { 
+  padding: 25px;
+}
+
+.video-section .show-details .show-title {
+  font-family: "Avenir Book";
+  font-style: italic;
+  font-size: 18px;
+  line-height: 25px;
+
+  color: #000000;
+}
+
+.video-section a {
+  font-family: "Avenir Heavy";
+  text-decoration: underline;
+  font-size: 18px;
+  line-height: 25px;
+
+  color: #000000;
 }
 
 .gallery-section {

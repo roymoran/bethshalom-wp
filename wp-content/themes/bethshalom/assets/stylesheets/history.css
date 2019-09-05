@@ -1,0 +1,31 @@
+.history-info {
+  font-family: "Avenir Book";
+  font-size: 18px;
+  line-height: 25px;
+  padding: 25px 0 25px 0;
+  color: #252525;
+  width: 80%;
+}
+
+.data-visuals {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: center;
+}
+
+.data-visuals img {
+  align-self: flex-start;
+  padding: 25px;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.our-history-section .title {
+    padding-top: 56px;
+}

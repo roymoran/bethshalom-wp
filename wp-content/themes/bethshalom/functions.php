@@ -40,6 +40,10 @@ function load_stylesheets()
     // Enque stylesheet for donate page
     wp_register_style('donate-page', get_template_directory_uri() . '/assets/stylesheets/donate.css', array(), false, 'all');
     wp_enqueue_style('donate-page');
+
+    // Enque stylesheet for history page
+    wp_register_style('history-page', get_template_directory_uri() . '/assets/stylesheets/history.css', array(), false, 'all');
+    wp_enqueue_style('history-page');
 }
 
 function register_my_menus()
