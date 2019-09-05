@@ -1,6 +1,6 @@
 <?php
  
-if($_POST['submit']) {
+if($_POST['contact-form-submit']) {
     $name = $_POST['name'];
     $email = $_POST['email'];
     $website = $_POST['website'];
