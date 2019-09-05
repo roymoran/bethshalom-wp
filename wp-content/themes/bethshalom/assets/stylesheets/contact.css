@@ -1,2 +1,62 @@
-div.a{text-align:center;}
-h1{font-size:50px}
+.contact-section {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+  padding: 73px 0 73px 0;
+
+}
+
+.contact-heading {
+  font-family: "Avenir Book";
+  font-size: 18px;
+  line-height: 25px;
+  padding: 0 0 50px 0;
+
+  color: #252525;
+}
+
+.contact-form {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.contact-form label {
+  padding-right: 50px;
+}
+
+.contact-form span {
+  color: #ff0000;
+}
+
+.contact-form input[type="text"] {
+  background: #c4c4c4;
+  border-radius: 3px;
+  width: 393px;
+  height: 28px;
+  border: none;
+  float: right;
+}
+
+.contact-form textarea {
+  background: #c4c4c4;
+  border-radius: 3px;
+  border: none;
+  width: 393px;
+  float: right;
+}
+
+.contact-form-input {
+  padding-bottom: 54px;
+}
+
+#contact-form-submit {
+  color: #ffffff;
+  font-size: inherit;
+  width: 165px;
+  height: 37px;
+  background: #0eab00;
+  border-radius: 3px;
+  float: right;
+}
