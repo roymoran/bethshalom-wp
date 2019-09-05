@@ -9,7 +9,7 @@ function load_stylesheets()
     wp_register_style('style', get_template_directory_uri() . '/style.css', array(), false, 'all');
     wp_enqueue_style('style');
 
-    // Enque stylesheet for homepage 
+    // Enque stylesheet for home page 
     wp_register_style('home', get_template_directory_uri() . '/assets/stylesheets/home.css', array(), false, 'all');
     wp_enqueue_style('home');
 
@@ -21,17 +21,25 @@ function load_stylesheets()
     wp_register_style('services-page', get_template_directory_uri() . '/assets/stylesheets/services.css', array(), false, 'all');
     wp_enqueue_style('services-page');
 
-    // Enque stylesheet for committees pages
+    // Enque stylesheet for committees page
     wp_register_style('committees-page', get_template_directory_uri() . '/assets/stylesheets/committees.css', array(), false, 'all');
     wp_enqueue_style('committees-page');
 
-    // Enque stylesheet for media pages
+    // Enque stylesheet for media page
     wp_register_style('media-page', get_template_directory_uri() . '/assets/stylesheets/media.css', array(), false, 'all');
     wp_enqueue_style('media-page');
 
-    // Enque stylesheet for media pages
+    // Enque stylesheet for studying here page
     wp_register_style('studying-here-page', get_template_directory_uri() . '/assets/stylesheets/studying-here.css', array(), false, 'all');
     wp_enqueue_style('studying-here-page');
+
+    // Enque stylesheet for contact us page
+    wp_register_style('contact-us-page', get_template_directory_uri() . '/assets/stylesheets/contact.css', array(), false, 'all');
+    wp_enqueue_style('contact-us-page');
+
+    // Enque stylesheet for donate page
+    wp_register_style('donate-page', get_template_directory_uri() . '/assets/stylesheets/donate.css', array(), false, 'all');
+    wp_enqueue_style('donate-page');
 
     // Enque stylesheet for history page
     wp_register_style('history-page', get_template_directory_uri() . '/assets/stylesheets/history.css', array(), false, 'all');
@@ -48,7 +56,7 @@ function register_my_menus()
     );
 }
 
-add_action( 'init', 'register_my_menus' );
+add_action('init', 'register_my_menus');
 add_action('wp_enqueue_scripts', 'load_stylesheets');
 
 add_theme_support('menus');

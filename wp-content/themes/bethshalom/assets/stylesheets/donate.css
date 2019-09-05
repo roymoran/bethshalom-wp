@@ -1,0 +1,54 @@
+.donate-page-section {
+  flex-flow: column nowrap;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+  padding: 73px 0 73px 0;
+
+  font-family: "Avenir Book";
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+}
+
+.donation-fund {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  padding-bottom: 63px;
+}
+
+.donation-fund-name {
+  font-family: "Avenir Book";
+  font-size: 36px;
+  line-height: 49px;
+  text-align: center;
+  padding-bottom: 20px;
+
+  color: #4aaa28;
+}
+
+.donate-fund-details {
+  font-family: "Avenir Book";
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  padding-bottom: 30px;
+
+  color: #252525;
+}
+
+.donate-fund-button {
+  background-color: #ffec3d; /* Green */
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 40px;
+
+  font-size: 24px;
+  line-height: 33px;
+  font-family: inherit;
+}
