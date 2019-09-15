@@ -39,7 +39,7 @@
 .slide-1 {
   height: 385px;
   background-position: center;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   float: left;
 
   -webkit-animation: slide1 20s infinite; /* Safari 4.0 - 8.0 */
@@ -109,7 +109,7 @@
 .slide-2 {
   height: 385px;
   background-position: center;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   float: left;
 
   -webkit-animation: slide2 20s infinite; /* Safari 4.0 - 8.0 */
@@ -179,7 +179,7 @@
 .slide-3 {
   height: 385px;
   background-position: center;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   float: left;
 
   -webkit-animation: slide3 20s infinite; /* Safari 4.0 - 8.0 */
@@ -251,6 +251,7 @@
   max-height: 243px;
   width: 80%;
   overflow: auto;
+  margin-top: 80px;
 }
 
 .slider-info {

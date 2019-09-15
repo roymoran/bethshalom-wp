@@ -84,8 +84,45 @@ function register_contact()
     }
 }
 
+function load_fonts()
+{
+    wp_register_style('Avenir-Book', get_template_directory_uri() . '/assets/Avenir/Avenir-Book.woff', array(), false, 'all');
+    wp_enqueue_style('Avenir-Book');
+}
+
 add_action('init', 'register_my_menus');
 add_action('init', 'register_contact');
-add_action('wp_enqueue_scripts', 'load_stylesheets');
+add_action('wp_enqueue_scripts', 'load_stylesheets', 'load_fonts');
 
 add_theme_support('menus');
+add_theme_support('post-thumbnails');
+
+/*
+* Switch default core markup for search form, comment form, and comments
+* to output valid HTML5.
+*/
+add_theme_support(
+    'html5',
+    array(
+        'search-form',
+        'comment-form',
+        'comment-list',
+        'gallery',
+        'caption',
+    )
+);
+
+/**
+ * Custom template tags for the theme.
+ */
+require get_template_directory() . '/inc/template-tags.php';
+
+/**
+ * Enhance the theme by hooking into WordPress.
+ */
+require get_template_directory() . '/inc/template-functions.php';
+
+/**
+ * Custom Comment Walker template.
+ */
+require get_template_directory() . '/classes/class-twentynineteen-walker-comment.php';

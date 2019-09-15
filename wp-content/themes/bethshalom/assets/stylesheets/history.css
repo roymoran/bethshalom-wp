@@ -29,3 +29,15 @@ td {
 .our-history-section .title {
     padding-top: 56px;
 }
+
+.history-image-float-left {
+  float: left;
+  padding-right: 33px;
+  padding-bottom: 20px;
+}
+
+.history-image-float-right {
+  float: right;
+  padding-left: 33px;
+  padding-bottom: 20px;
+}
