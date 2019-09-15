@@ -60,7 +60,7 @@ function twentynineteen_comment_form_defaults( $defaults ) {
 	$comment_field = $defaults['comment_field'];
 
 	// Adjust height of comment form.
-	$defaults['comment_field'] = preg_replace( '/rows="\d+"/', 'rows="5"', $comment_field );
+	$defaults['comment_field'] = preg_replace( '/rows="\d+"/', 'rows="1"', $comment_field );
 
 	return $defaults;
 }
@@ -173,7 +173,7 @@ function twentynineteen_get_discussion_data() {
 			'orderby' => 'comment_date_gmt',
 			'order'   => get_option( 'comment_order', 'asc' ), /* Respect comment order from Settings » Discussion. */
 			'status'  => 'approve',
-			'number'  => '', /* Retrieve all the comments */
+			'number'  => 20, /* Only retrieve the last 20 comments, as the end goal is just 6 unique authors */
 		)
 	);
 
