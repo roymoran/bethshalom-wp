@@ -5,9 +5,11 @@
     <div>
         <h1 class="site-title"> Beth Shalom B'Nai <br>Zaken EHC </h1>
         <a href="https://www.youtube.com/user/BethShalomBZ" class="social-icon">
-            <img src="https://seeklogo.net/wp-content/uploads/2016/06/YouTube-icon-400x400.png" width="52" height="56" title="YouTube" alt="YouTube"></a>
+            <img src="<?php echo get_template_directory_uri() ?>/assets/images/youtube_logo.png" width="52" title="YouTube" alt="YouTube" />
+        </a>
+
         <a href="https://www.facebook.com/bethshalombz.org/" class="social-icon">
-            <img src="https://ie.reachout.com/wp-content/uploads/2015/02/Facebook.png" width="52" height="56" title="Facebook" alt="Facebook">
+            <img src="<?php echo get_template_directory_uri() ?>/assets/images/facebook_logo.png" width="56" title="Facebook" alt="Facebook" />
         </a>
     </div>
     <div class="footer-nav-links-container">
