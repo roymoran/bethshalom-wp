@@ -1,7 +1,7 @@
 <?php
 get_header();
 ?>
-<section class="page-header" style="background-image: url('./assets/images/Sanctuary-70.jpg');">
+<section class="page-header" style="background-image: url('<?php echo get_template_directory_uri() ?>/assets/images/committees70.jpg');">
 	<div>OUR BLOG</div>
 	<hr>
 </section>
