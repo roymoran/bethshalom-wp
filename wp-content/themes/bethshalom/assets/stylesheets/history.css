@@ -2,9 +2,14 @@
   font-family: "Avenir Book";
   font-size: 18px;
   line-height: 25px;
-  padding: 25px 0 25px 0;
+  padding: 15px 0 25px 0;
   color: #252525;
   width: 80%;
+}
+
+.history-data-section {
+  display: flex;
+  flex-flow: column nowrap;
 }
 
 .data-visuals {

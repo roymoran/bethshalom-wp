@@ -1,14 +1,14 @@
 <?php
 get_header();
 ?>
-<section class="page-header">
+<section class="page-header" style="background-image: url('./assets/images/Sanctuary-70.jpg');">
 	<div>OUR BLOG</div>
 	<hr>
 </section>
 <section class="section blog-section blog-list-padding">
 	<?php
 	if (have_posts()) {
-		
+
 		// Load posts loop.
 		while (have_posts()) {
 			the_post();

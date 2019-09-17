@@ -1,10 +1,10 @@
-<section class="page-header">
+<section class="page-header" style="background-image: url('./assets/images/Sanctuary-70.jpg');">
     <div>NASHE OR SISTERHOOD</div>
     <hr>
 </section>
 
 <section class="section committee-section">
-    <img src="<?php echo get_template_directory_uri() ?>/assets/images/square-committee-placeholder.svg" alt="placeholder" />
+    <img src="<?php echo get_template_directory_uri() ?>/assets/images/square-committee-placeholder.svg" alt="placeholder" width="300px;" height="300px;" />
     <div class="committee-info">Nashe Or means Women of Light. We began our journey in October 1993, when Dinah Judah, Mary Funnye, Hadassah Issachar (may she rest in peace), and Keturah Israel met to form a women’s auxiliary, comprised of women in the congregation (beginning at age 18), to support Beth Shalom’s activities, and to serve as a vehicle for our sisters to learn and grow together. In choosing our name, we have an obligation to light the way for our families, our congregation, and our community. We’ve sponsored weekend retreats, established reading groups, published a cookbook, sponsored a coat drive and a health fair, and provided blankets for babies at Larabida Children’s Hospital. We coordinate fundraisers and activities for our children. We plan the Oneg (meal after Shabbat Service) and Holy Day feasts.</div>
     <div class="committee-info">NASHE OR SISTERHOOD’S MOTTO, “Strong sisters make strong sisters stronger, by building bridges to understanding,” speaks to our understanding that there is no place in our Sisterhood for destructive jealousies that can sometimes stymie women working together. We appreciate and admire each sister’s special talents and abilities. We are keenly aware that by working together can we continue to meet our spiritual needs, the needs of our families, and the needs of our nation. </div>
     <div class="committee-info">Monthly dues are $10. All female members of the congregation are invited to join Nashe Or Sisterhood and take this spiritual walk with us, as we learn the Creator’s word and endeavor to do His will. </div>
