@@ -1,10 +1,10 @@
-<section class="page-header">
+<section class="page-header" style="background-image: url('./assets/images/Sanctuary-70.jpg');">
     <div>STUDYING HERE</div>
     <hr>
 </section>
 
 <section class="section studying-here-info-section">
-    <img src="<?php echo get_template_directory_uri() ?>/assets/images/rectangle-placeholder.svg" alt="placeholder" />
+    <img src="<?php echo get_template_directory_uri() ?>/assets/images/rectangle-placeholder.svg" alt="placeholder" width="448px;" height="283.38px;" />
     <div class="studying-here-info">The Israelite Academy invites applicants from people of any background who are sincerely interested in learning about Israelite history, culture, and practice. Our primary responsibility is to the members of our own community, but we welcome others who wish to study with us if there are sufficient resources to accommodate them and that those individuals conduct themselves in a respectful manner. We have recently opened our doors in this way to meet the growing demand we have received from our constituents and from the general public. While we are interested in meeting this legitimate thirst for knowledge, we realize that some individuals may be more interested in proselytizing, criticizing, and merely engaging in doctrinal debate for the purpose of advancing their own views. Individuals who may fit the latter description should seek other forums to air their beliefs. Perspective students should apply with the understanding that we are a private school with defined positions just as Orthodox Yeshivas, Catholic Seminaries, and Christian Bible Colleges. We encourage you to be a student; learn what we teach and then draw your own conclusions.</div>
     <div class="studying-here-info">
         Students may enroll in one of following programs:

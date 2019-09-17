@@ -176,7 +176,6 @@ li.menu-item-has-children {
 
 /* Calendar Page */
 .page-header {
-  background-image: url("./assets/images/Sanctuary-70.jpg");
   background-position: center;
   display: flex;
   flex-flow: column nowrap;

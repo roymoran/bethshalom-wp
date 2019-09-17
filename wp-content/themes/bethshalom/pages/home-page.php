@@ -70,9 +70,9 @@
 <section class="section events-section">
     <div class="title">UPCOMING EVENTS</div>
     <div class="events-details">
-        <img src="<?php echo get_template_directory_uri() ?>/assets/images/rect.svg" alt="placeholder" />
-        <img src="<?php echo get_template_directory_uri() ?>/assets/images/rect.svg" alt="placeholder" />
-        <img src="<?php echo get_template_directory_uri() ?>/assets/images/rect.svg" alt="placeholder" />
+        <img src="<?php echo get_template_directory_uri() ?>/assets/images/rabbi_NYTimes.jpg" width="258px" height="326.19px" alt="placeholder" />
+        <img src="<?php echo get_template_directory_uri() ?>/assets/images/rect.svg" width="258px" height="326.19px" alt="placeholder" />
+        <img src="<?php echo get_template_directory_uri() ?>/assets/images/rect.svg" width="258px" height="326.19px" alt="placeholder" />
     </div>
     <a href="<?php echo esc_url( get_permalink( get_page_by_title( 'calendar' ) ) ); ?>">View All In Calendar</a>
 </section>

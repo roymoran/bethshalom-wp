@@ -1,4 +1,4 @@
-<section class="page-header">
+<section class="page-header" style="background-image: url('./assets/images/Sanctuary-70.jpg');">
     <div>OUR SERVICES</div>
     <hr>
 </section>

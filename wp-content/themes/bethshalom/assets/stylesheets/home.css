@@ -330,6 +330,11 @@
   padding: 15px;
 }
 
+.home-section {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
 .home-section .info {
   font-family: source-sans-pro, sans-serif;
   font-weight: 600;
