@@ -4,7 +4,7 @@
 </section>
 
 <section class="section yellow-section livestream-notice">
-    <a href="#" target="_blank">Our services are livestreamed on our Facebook page! Click here to watch.</a>
+    <a href="#" target="_blank">Our services are live streamed on our Facebook page! Click here to watch.</a>
 </section>
 
 <section class="section holy-dates-section">

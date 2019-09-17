@@ -184,6 +184,17 @@ li.menu-item-has-children {
   min-height: 268px;
 }
 
+.blog-page-header {
+  background-image: url("./assets/images/commitees70.jpg");
+  background-position: center;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  min-height: 268px;
+
+}
+
 .page-header div {
   font-family: "Lora Bold", serif;
   font-size: 60px;
