@@ -69,7 +69,9 @@
 <section class="section notable-events-section">
     <div class="title">OUR NOTABLE EVENTS</div>
     <div class="event">
-        <img src="<?php echo get_template_directory_uri() ?>/assets/images/square-placeholder.svg" alt="placeholder" />
+        <div class="event-image">
+            <img style="object-fit: cover;" src="<?php echo get_template_directory_uri() ?>/assets/images/rabbi_NYTimes.jpg" alt="placeholder" width="249px" height="249px" />
+        </div>
         <div class="description">
             <a href="#" class="title">
                 Featured in the New York Times. Click here to read.
@@ -80,7 +82,9 @@
         </div>
     </div>
     <div class="event-reverse">
-        <img src="<?php echo get_template_directory_uri() ?>/assets/images/square-placeholder.svg" alt="placeholder" />
+        <div class="event-image">
+            <img style="object-fit: cover;" src="<?php echo get_template_directory_uri() ?>/assets/images/rabbi_NYTimes.jpg" alt="placeholder" width="249px" height="249px" />
+        </div>
         <div class="description-reverse">
             <a href="#" class="title">
                 Featured in the New York Times. Click here to read.
@@ -91,7 +95,9 @@
         </div>
     </div>
     <div class="event">
-        <img src="<?php echo get_template_directory_uri() ?>/assets/images/square-placeholder.svg" alt="placeholder" />
+        <div class="event-image">
+            <img style="object-fit: cover;" src="<?php echo get_template_directory_uri() ?>/assets/images/rabbi_NYTimes.jpg" alt="placeholder" width="249px" height="249px" />
+        </div>
         <div class="description">
             <a href="#" class="title">
                 Click here to read full blog post
@@ -102,7 +108,9 @@
         </div>
     </div>
     <div class="event-reverse">
-        <img src="<?php echo get_template_directory_uri() ?>/assets/images/square-placeholder.svg" alt="placeholder" />
+        <div class="event-image">
+            <img style="object-fit: cover;" src="<?php echo get_template_directory_uri() ?>/assets/images/rabbi_NYTimes.jpg" alt="placeholder" width="249px" height="249px" />
+        </div>
         <div class="description-reverse">
             <a href="#" class="title">
                 Featured in Forward. Click here to read.
