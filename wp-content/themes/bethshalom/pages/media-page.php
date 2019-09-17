@@ -6,7 +6,7 @@
 <section class="section media-section">
     <div class="title">HINT MAGAZINE</div>
     <div class="magazine-section">
-        <a href="#">View the latest issue by clicking here</a>
+        <a href="https://israeliteacademy.net/hint-magazine/">View the latest issue by clicking here</a>
     </div>
     <div class="title">RADIO</div>
     <div class="radio-section">
@@ -22,34 +22,34 @@
     </div>
     <div class="title">VIDEO</div>
     <div class="video-section">
-        <div class="details"><span>Watch us featured on WTTW Chicago Tonight.</span> We are also featured on the following segments, seperated into different parts due to program length:</div>
+        <div class="details"><span><a href="https://www.youtube.com/watch?v=EZEDr8Hl6-Q">Watch us featured on WTTW Chicago Tonight.</a></span> We are also featured on the following segments, seperated into different parts due to program length:</div>
         <div class="show-list">
             <div class="show-details">
                 <div class="show-title">Aaron Freeman Show:</div>
-                <div><a href="#">- Part 1</a></div>
-                <div><a href="#">- Part 2</a></div>
-                <div><a href="#">- Part 3</a></div>
+                <div><a href="https://www.youtube.com/watch?v=1yakrgIepGE">- Part 1</a></div>
+                <div><a href="https://www.youtube.com/watch?v=yh_CUfQXJwk">- Part 2</a></div>
+                <div><a href="https://www.youtube.com/watch?v=yh_CUfQXJwk">- Part 3</a></div>
             </div>
 
             <div class="show-details">
                 <div class="show-title">Aaron Freeman Show Again:</div>
-                <div><a href="#">- Part 1</a></div>
-                <div><a href="#">- Part 2</a></div>
-                <div><a href="#">- Part 3</a></div>
+                <div><a href="https://www.youtube.com/watch?v=ZMosLUhzEy8">- Part 1</a></div>
+                <div><a href="https://www.youtube.com/watch?v=YgUllbn0jic">- Part 2</a></div>
+                <div><a href="https://www.youtube.com/watch?v=xo_KoSQ8Ack">- Part 3</a></div>
             </div>
 
             <div class="show-details">
                 <div class="show-title">Common Ground:</div>
-                <div><a href="#">- Part 1</a></div>
-                <div><a href="#">- Part 2</a></div>
-                <div><a href="#">- Part 3</a></div>
+                <div><a href="https://www.youtube.com/watch?v=01e2piHQ6Dk">- Part 1</a></div>
+                <div><a href="https://www.youtube.com/watch?v=lfXW3lg3dT8">- Part 2</a></div>
+                <div><a href="https://www.youtube.com/watch?v=pb9UdlqTpi4">- Part 3</a></div>
             </div>
 
             <div class="show-details">
                 <div class="show-title">Our Voices:</div>
-                <div><a href="#">- Part 1</a></div>
-                <div><a href="#">- Part 2</a></div>
-                <div><a href="#">- Part 3</a></div>
+                <div><a href="https://www.youtube.com/watch?v=Cb5gX9-BcTg">- Part 1</a></div>
+                <div><a href="https://www.youtube.com/watch?v=MxCauIZUFVQ">- Part 2</a></div>
+                <div><a href="https://www.youtube.com/watch?v=ODF8bespT1k">- Part 3</a></div>
             </div>
         </div>
     </div>
