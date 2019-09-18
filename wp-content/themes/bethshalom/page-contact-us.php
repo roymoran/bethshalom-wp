@@ -19,6 +19,7 @@ $missing_content = "Please supply all information.";
 $email_invalid   = "Email Address Invalid.";
 $message_unsent  = "Message was not sent. Try Again.";
 $message_sent    = "Thanks! Your message has been sent.";
+$verification_failed = "Robot verification failed, please try again.";
 
 //user posted variables
 $name = $_POST['message_name'];
@@ -27,6 +28,7 @@ $website = $_POST['message_website'];
 $phone = $_POST['message_phone'];
 $subject = $_POST['message_subject'];
 $message = $_POST['message_text'];
+$recaptcha = $_POST['g-recaptcha-response'];
 
 //php mailer variables
 $to = 'romoran1@outlook.com';
@@ -35,21 +37,32 @@ $headers = 'From: ' . $email . "\r\n" .
     'Reply-To: ' . $email . "\r\n";
 
 // if ($_POST['contact-form-submit']) {
-    //validate email
-    if (!filter_var($email, FILTER_VALIDATE_EMAIL))
-        my_contact_form_generate_response("error", $email_invalid);
-    else //email is valid
+//validate email
+if (!filter_var($email, FILTER_VALIDATE_EMAIL))
+    my_contact_form_generate_response("error", $email_invalid);
+else //email is valid
+{
+    //validate presence of name and message
+    if (empty($name) || empty($message)) {
+        my_contact_form_generate_response("error", $missing_content);
+    } else //ready to go!
     {
-        //validate presence of name and message
-        if (empty($name) || empty($message)) {
-            my_contact_form_generate_response("error", $missing_content);
-        } else //ready to go!
-        {
-            $sent = wp_mail($to, $subject, strip_tags($message), $headers);
-            if ($sent) my_contact_form_generate_response("success", $message_sent); //message sent!
-            else my_contact_form_generate_response("error", $message_unsent); //message wasn't sent
+        if (isset($_POST['g-recaptcha-response']) && !empty($_POST['g-recaptcha-response'])) {
+            $secret = getenv("RECAPTCHA_SECRET");
+            $verifyResponse = file_get_contents('https://www.google.com/recaptcha/api/siteverify?secret=' . $secret . '&response=' . $_POST['g-recaptcha-response']);
+            $responseData = json_decode($verifyResponse);
+            if ($responseData->success) {
+                $sent = wp_mail($to, $subject, strip_tags($message), $headers);
+                if ($sent) my_contact_form_generate_response("success", $message_sent); //message sent!
+                else my_contact_form_generate_response("error", $message_unsent); //message wasn't sent
+            } else {
+                my_contact_form_generate_response("error", $verification_failed); //message wasn't sent
+            }
+        } else {
+            my_contact_form_generate_response("error", $verification_failed); //message wasn't sent
         }
     }
+}
 // }
 
 ?>
@@ -91,6 +104,10 @@ while (have_posts()) :
             <div class="contact-form-input">
                 <label><span>*</span>Message: </label>
                 <textarea type="text" rows="20" name="message_text"><?php echo esc_textarea($_POST['message_text']); ?></textarea>
+            </div>
+
+            <div class="contact-form-input" style="align-self: flex-end;">
+                <div class="g-recaptcha" data-sitekey="6Lf1MbkUAAAAAETbd9kGrNqXbIJvS0HVjNZ1CT_T"></div>
             </div>
 
             <div class="contact-form-input">
