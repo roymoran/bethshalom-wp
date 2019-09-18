@@ -32,9 +32,10 @@ $recaptcha = $_POST['g-recaptcha-response'];
 
 //php mailer variables
 $to = 'romoran1@outlook.com';
-$subject = "Message from website: " . $subject;
+$subject = "Contact form: " . $subject;
 $headers = 'From: ' . $email . "\r\n" .
     'Reply-To: ' . $email . "\r\n";
+$message_text = "Name: ".$name."\n Website: ".$website."\n Phone: ".$phone."\n\nMessage: ".strip_tags($message);
 
 // if ($_POST['contact-form-submit']) {
 //validate email
@@ -52,7 +53,7 @@ else //email is valid
             $verifyResponse = file_get_contents('https://www.google.com/recaptcha/api/siteverify?secret=' . $secret . '&response=' . $_POST['g-recaptcha-response']);
             $responseData = json_decode($verifyResponse);
             if ($responseData->success) {
-                $sent = wp_mail($to, $subject, strip_tags($message), $headers);
+                $sent = wp_mail($to, $subject, $message_text, $headers);
                 if ($sent) my_contact_form_generate_response("success", $message_sent); //message sent!
                 else my_contact_form_generate_response("error", $message_unsent); //message wasn't sent
             } else {
