@@ -29,7 +29,7 @@ $subject = $_POST['message_subject'];
 $message = $_POST['message_text'];
 
 //php mailer variables
-$to = get_option('romoran1@outlook.com');
+$to = 'romoran1@outlook.com';
 $subject = "Message from website: " . $subject;
 $headers = 'From: ' . $email . "\r\n" .
     'Reply-To: ' . $email . "\r\n";
@@ -45,7 +45,7 @@ $headers = 'From: ' . $email . "\r\n" .
             my_contact_form_generate_response("error", $missing_content);
         } else //ready to go!
         {
-            $sent = wp_mail($to, $subject, strip_tags($message), $headers);
+            $sent = mail($to, $subject, strip_tags($message), $headers);
             if ($sent) my_contact_form_generate_response("success", $message_sent); //message sent!
             else my_contact_form_generate_response("error", $message_unsent); //message wasn't sent
         }
