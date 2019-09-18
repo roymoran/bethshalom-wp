@@ -107,7 +107,7 @@ while (have_posts()) :
             </div>
 
             <div class="contact-form-input" style="align-self: flex-end;">
-                <div class="g-recaptcha" data-sitekey="6Lf1MbkUAAAAAETbd9kGrNqXbIJvS0HVjNZ1CT_T"></div>
+                <div class="g-recaptcha" data-sitekey="6LfJMrkUAAAAAIeTPWMVOCCPKdoCTOKtMm6Mol4r"></div>
             </div>
 
             <div class="contact-form-input">
