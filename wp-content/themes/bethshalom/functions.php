@@ -56,34 +56,6 @@ function register_my_menus()
     );
 }
 
-function register_contact()
-{
-    if ($_POST['contact-form-submit']) {
-        $name = $_POST['name'];
-        $email = $_POST['email'];
-        $website = $_POST['website'];
-        $subject = $_POST['subject'];
-        $message = $_POST['message'];
-        $recipient = "romoran1@outlook.com";
-
-        $headers  = 'MIME-Version: 1.0' . "\r\n"
-            . 'Content-type: text/html; charset=utf-8' . "\r\n"
-            . 'From: ' . $email . "\r\n";
-
-        $txt = "You received an email with the following details: \nEmail:" . $email . "\nName: " . $name . "\nWebsite" . $website . "\n\nMessage: " . $message;
-
-        if (mail($recipient, $subject, $txt, $headers)) {
-            echo "<p>Thank you for contacting us, $name. You will get a reply within 24 hours.</p>";
-            # header("Location: "."http://{$_SERVER['HTTP_HOST']}{$_SERVER['REQUEST_URI']}"); 
-            # exit();
-        } else {
-            echo '<p>We are sorry but the email did not go through.</p>';
-            # header("Location: "."http://{$_SERVER['HTTP_HOST']}{$_SERVER['REQUEST_URI']}"); 
-            # exit();
-        }
-    }
-}
-
 function load_fonts()
 {
     wp_register_style('Avenir-Book', get_template_directory_uri() . '/assets/Avenir/Avenir-Book.woff', array(), false, 'all');
@@ -91,7 +63,6 @@ function load_fonts()
 }
 
 add_action('init', 'register_my_menus');
-add_action('init', 'register_contact');
 add_action('wp_enqueue_scripts', 'load_stylesheets', 'load_fonts');
 
 add_theme_support('menus');
