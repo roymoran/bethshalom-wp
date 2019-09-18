@@ -26,7 +26,7 @@ $email = $_POST['message_email'];
 $website = $_POST['message_website'];
 $phone = $_POST['message_phone'];
 $subject = $_POST['message_subject'];
-$message = $_POST['message_message'];
+$message = $_POST['message_text'];
 
 //php mailer variables
 $to = get_option('romoran1@outlook.com');
@@ -65,36 +65,36 @@ while (have_posts()) :
         <form class="contact-form" action="<?php the_permalink(); ?>" method="post">
             <div class="contact-form-input">
                 <label><span>*</span>Name: </label>
-                <input type="text" name="name" value="<?php echo esc_attr($_POST['message_name']); ?>" />
+                <input type="text" name="message_name" value="<?php echo esc_attr($_POST['message_name']); ?>" />
             </div>
 
             <div class="contact-form-input">
                 <label><span>*</span>Email: </label>
-                <input type="text" name="email" value="<?php echo esc_attr($_POST['message_email']); ?>" />
+                <input type="text" name="message_email" value="<?php echo esc_attr($_POST['message_email']); ?>" />
             </div>
 
             <div class="contact-form-input">
                 <label>Website: </label>
-                <input type="text" name="website" value="<?php echo esc_attr($_POST['message_website']); ?>" />
+                <input type="text" name="message_website" value="<?php echo esc_attr($_POST['message_website']); ?>" />
             </div>
 
             <div class="contact-form-input">
                 <label><span>*</span>Phone: </label>
-                <input type="text" name="phone" value="<?php echo esc_attr($_POST['message_phone']); ?>" />
+                <input type="text" name="message_phone" value="<?php echo esc_attr($_POST['message_phone']); ?>" />
             </div>
 
             <div class="contact-form-input">
                 <label><span>*</span>Subject: </label>
-                <input type="text" name="subject" value="<?php echo esc_attr($_POST['message_subject']); ?>" />
+                <input type="text" name="message_subject" value="<?php echo esc_attr($_POST['message_subject']); ?>" />
             </div>
 
             <div class="contact-form-input">
                 <label><span>*</span>Message: </label>
-                <textarea type="text" rows="20" name="message" value="<?php echo esc_attr($_POST['message_text']); ?>"></textarea>
+                <textarea type="text" rows="20" name="message_text"><?php echo esc_textarea($_POST['message_text']); ?></textarea>
             </div>
 
             <div class="contact-form-input">
-                <input type="submit" name="contact-form-submit" value="Send" id="contact-form-submit" />
+                <input type="submit" id="contact-form-submit" />
             </div>
 
             <div class="contact-form-input" style="align-self: flex-end;">
