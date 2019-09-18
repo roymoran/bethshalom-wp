@@ -9,7 +9,7 @@
 <body <?php body_class();?>>
 <div class="header">
   <a href="/">
-    <img src="http://bethshalombz.org/blog2/wp-content/uploads/2010/02/brotherhood_logo1.jpg" alt="Beth Shalom Logo" align="left">
+    <img src="<?php echo get_template_directory_uri() ?>/assets/images/brotherhood_logo1.jpg" alt="Beth Shalom Logo" align="left">
     <h1>Beth Shalom B'Nai Zaken EHC</h1>
   </a>
 </div>
