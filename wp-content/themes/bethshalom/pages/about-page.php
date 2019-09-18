@@ -73,7 +73,7 @@
             <img style="object-fit: cover;" src="<?php echo get_template_directory_uri() ?>/assets/images/rabbi_NYTimes.jpg" alt="placeholder" width="249px" height="249px" />
         </div>
         <div class="description">
-            <a href="#" class="title">
+            <a href="https://www.nytimes.com/2009/04/05/magazine/05rabbi-t.html" target="_blank" class="title">
                 Featured in the New York Times. Click here to read.
             </a>
             <div class="details">
@@ -86,7 +86,7 @@
             <img style="object-fit: cover;" src="<?php echo get_template_directory_uri() ?>/assets/images/rabbi_NYTimes.jpg" alt="placeholder" width="249px" height="249px" />
         </div>
         <div class="description-reverse">
-            <a href="#" class="title">
+            <a href="https://www.nytimes.com/2008/03/16/us/16rabbi.html" target="_blank" class="title">
                 Featured in the New York Times. Click here to read.
             </a>
             <div class="details">
@@ -99,7 +99,7 @@
             <img style="object-fit: cover;" src="<?php echo get_template_directory_uri() ?>/assets/images/rabbi_NYTimes.jpg" alt="placeholder" width="249px" height="249px" />
         </div>
         <div class="description">
-            <a href="#" class="title">
+            <a href="/israel-at-the-white-house" target="_blank" class="title">
                 Click here to read full blog post
             </a>
             <div class="details">
@@ -112,7 +112,7 @@
             <img style="object-fit: cover;" src="<?php echo get_template_directory_uri() ?>/assets/images/rabbi_NYTimes.jpg" alt="placeholder" width="249px" height="249px" />
         </div>
         <div class="description-reverse">
-            <a href="#" class="title">
+            <a href="https://forward.com/news/348199/new-hebrew-israelite-chief-rabbi-capers-funnye-makes-a-play-for-history/" target="_blank" class="title">
                 Featured in Forward. Click here to read.
             </a>
             <div class="details">
