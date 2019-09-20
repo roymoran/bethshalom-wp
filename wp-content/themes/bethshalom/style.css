@@ -80,7 +80,7 @@ body {
   text-transform: uppercase;
 }
 
-li a,
+.menu-item a,
 .dropbtn {
   display: inline-block;
   color: white; /* Color of Text in Navigation Bar */
@@ -89,7 +89,7 @@ li a,
   text-decoration: none;
 }
 
-li a:hover,
+.menu-item a:hover,
 .dropdown:hover .dropbtn {
   background-color: rgb(
     0,
