@@ -15,7 +15,7 @@
         <div class="details">Rabbi Capers C. Funnye grew up Methodist, but he converted to Judaism and is now a Rabbi. Funnye now leads an Ethiopian Hebrew Congregation in Chicago, one of the largest Black synagogues in America (and he’s also First Lady Michelle Obama’s cousin).</div>
         <br>
         <div class="details">
-            Rabbi Funnye shares his faith journey and his work to unite black and white Jewish communities. Listen Here
+            Rabbi Funnye shares his faith journey and his work to unite black and white Jewish communities.
         </div>
         <br>
         <a href="#" target="_blank">Listen Here</a>
