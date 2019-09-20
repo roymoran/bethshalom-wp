@@ -35,36 +35,36 @@ $to = 'romoran1@outlook.com';
 $subject = "Contact form: " . $subject;
 $headers = 'From: ' . $email . "\r\n" .
     'Reply-To: ' . $email . "\r\n";
-$message_text = "Name: ".$name."\n Website: ".$website."\n Phone: ".$phone."\n\nMessage: ".strip_tags($message);
+$message_text = "Name: " . $name . "\n Website: " . $website . "\n Phone: " . $phone . "\n\nMessage: " . strip_tags($message);
 
-// if ($_POST['contact-form-submit']) {
-//validate email
-if (!filter_var($email, FILTER_VALIDATE_EMAIL))
-    my_contact_form_generate_response("error", $email_invalid);
-else //email is valid
-{
-    //validate presence of name and message
-    if (empty($name) || empty($message)) {
-        my_contact_form_generate_response("error", $missing_content);
-    } else //ready to go!
+if ($_POST['contact-form-submit']) {
+    //validate email
+    if (!filter_var($email, FILTER_VALIDATE_EMAIL))
+        my_contact_form_generate_response("error", $email_invalid);
+    else //email is valid
     {
-        if (isset($_POST['g-recaptcha-response']) && !empty($_POST['g-recaptcha-response'])) {
-            $secret = getenv("RECAPTCHA_SECRET");
-            $verifyResponse = file_get_contents('https://www.google.com/recaptcha/api/siteverify?secret=' . $secret . '&response=' . $_POST['g-recaptcha-response']);
-            $responseData = json_decode($verifyResponse);
-            if ($responseData->success) {
-                $sent = wp_mail($to, $subject, $message_text, $headers);
-                if ($sent) my_contact_form_generate_response("success", $message_sent); //message sent!
-                else my_contact_form_generate_response("error", $message_unsent); //message wasn't sent
+        //validate presence of name and message
+        if (empty($name) || empty($message)) {
+            my_contact_form_generate_response("error", $missing_content);
+        } else //ready to go!
+        {
+            if (isset($_POST['g-recaptcha-response']) && !empty($_POST['g-recaptcha-response'])) {
+                $secret = getenv("RECAPTCHA_SECRET");
+                $verifyResponse = file_get_contents('https://www.google.com/recaptcha/api/siteverify?secret=' . $secret . '&response=' . $_POST['g-recaptcha-response']);
+                $responseData = json_decode($verifyResponse);
+                if ($responseData->success) {
+                    $sent = wp_mail($to, $subject, $message_text, $headers);
+                    if ($sent) my_contact_form_generate_response("success", $message_sent); //message sent!
+                    else my_contact_form_generate_response("error", $message_unsent); //message wasn't sent
+                } else {
+                    my_contact_form_generate_response("error", $verification_failed); //message wasn't sent
+                }
             } else {
                 my_contact_form_generate_response("error", $verification_failed); //message wasn't sent
             }
-        } else {
-            my_contact_form_generate_response("error", $verification_failed); //message wasn't sent
         }
     }
 }
-// }
 
 ?>
 <?php get_header(); ?>
@@ -112,7 +112,7 @@ while (have_posts()) :
             </div>
 
             <div class="contact-form-input">
-                <input type="submit" id="contact-form-submit" />
+                <input type="submit" id="contact-form-submit" name="contact-form-submit" />
             </div>
 
             <div class="contact-form-input" style="align-self: flex-end;">
