@@ -1,35 +1,11 @@
-<section class="slider-section">
+<section class="slider-section" style="background-image: url('<?php echo get_template_directory_uri() ?>/assets/images/Sanctuary-70.jpg');">
     <div class="slide-1" style="background-image: url('<?php echo get_template_directory_uri() ?>/assets/images/Sanctuary-70.jpg');">
-        <div class="slider-info-container" >
+        <div class="slider-info-container">
             <div class="slider-info">
-                <div class="title">Welcome!</div>
+                <div class="title">Welcome</div>
                 <div class="description">We welcome you and your interest in Beth Shalom B’Nai Zaken Ethiopian Hebrew Congregation (House of Peace for the Children of the Ancient Ethiopian Hebrews). As stated in Psalm 133:1, “...How good and how pleasant it is for brethren to dwell together in unity!” You are invited to join Beth Shalom B’Nai Zaken E.H.C.</div>
             </div>
         </div>
-    </div>
-
-    <div class="slide-2" style="background-image: url('<?php echo get_template_directory_uri() ?>/assets/images/Sanctuary-70.jpg');">
-        <div class="slider-info-container">
-            <div class="slider-info">
-                <div class="title">Slide 2</div>
-                <div class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et odio at leo pulvinar finibus. Cras eu iaculis est. Sed in dapibus sem, vel aliquet neque. Sed sed mauris porta, tempor ex non, tempor purus. Pellentesque commodo facilisis tempus. Curabitur placerat elementum porta. Aenean dictum dui ex, vitae mattis ligula feugiat a.</div>
-            </div>
-        </div>
-    </div>
-
-    <div class="slide-3" style="background-image: url('<?php echo get_template_directory_uri() ?>/assets/images/Sanctuary-70.jpg');">
-        <div class="slider-info-container">
-            <div class="slider-info">
-                <div class="title">Slide 3</div>
-                <div class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et odio at leo pulvinar finibus. Cras eu iaculis est. Sed in dapibus sem, vel aliquet neque. Sed sed mauris porta, tempor ex non, tempor purus. Pellentesque commodo facilisis tempus. Curabitur placerat elementum porta. Aenean dictum dui ex, vitae mattis ligula feugiat a.</div>
-            </div>
-        </div>
-    </div>
-    
-    <div class="slider-indicators">
-        <img src="<?php echo get_template_directory_uri() ?>/assets/images/indicator.svg" alt="placeholder" />
-        <img src="<?php echo get_template_directory_uri() ?>/assets/images/indicator.svg" alt="placeholder" />
-        <img src="<?php echo get_template_directory_uri() ?>/assets/images/indicator.svg" alt="placeholder" />
     </div>
 </section>
 
