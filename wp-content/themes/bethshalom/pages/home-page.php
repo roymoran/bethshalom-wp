@@ -1,17 +1,12 @@
-<section class="slider-section" style="background-image: url('<?php echo get_template_directory_uri() ?>/assets/images/Sanctuary-70.jpg');">
+<section class="section" style="background-image: url('<?php echo get_template_directory_uri() ?>/assets/images/Sanctuary-70.jpg');">
     <div class="slide-1" style="background-image: url('<?php echo get_template_directory_uri() ?>/assets/images/Sanctuary-70.jpg');">
         <div class="slider-info-container">
             <div class="slider-info">
-                <div class="title">Welcome</div>
-                <div class="description">We welcome you and your interest in Beth Shalom B’Nai Zaken Ethiopian Hebrew Congregation (House of Peace for the Children of the Ancient Ethiopian Hebrews). As stated in Psalm 133:1, “...How good and how pleasant it is for brethren to dwell together in unity!” You are invited to join Beth Shalom B’Nai Zaken E.H.C.</div>
+                <div class="title">OUR MISSION</div>
+                <div class="description">Beth Shalom is a family synagogue. The synagogue exists as a place of worship for all people of the Hebrew-Israelite faith. True to our founding principles, the family unit remains the model upon which all spiritual and secular activities take place. We believe that our way of life promotes strong families and encourages the individuals of those families to be responsible, respected, and productive members of society.</div>
             </div>
         </div>
     </div>
-</section>
-
-<section class="section home-section">
-    <div class="title">OUR MISSION</div>
-    <p class="info">Beth Shalom is a family synagogue. The synagogue exists as a place of worship for all people of the Hebrew-Israelite faith. True to our founding principles, the family unit remains the model upon which all spiritual and secular activities take place. We believe that our way of life promotes strong families and encourages the individuals of those families to be responsible, respected, and productive members of society.</p>
 </section>
 
 <section class="section services-section">
