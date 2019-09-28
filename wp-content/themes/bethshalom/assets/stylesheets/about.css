@@ -13,7 +13,7 @@
 .leadership-section .leader {
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
 }
 
@@ -44,7 +44,7 @@
 .event {
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
   padding: 25px;
 }
@@ -52,7 +52,7 @@
 .event-reverse {
   display: flex;
   flex-flow: row-reverse wrap;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
   padding: 25px;
 }
