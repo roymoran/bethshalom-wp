@@ -1,0 +1,46 @@
+.thankyou-section {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+}
+
+.thank-you-message {
+  font-family: "Avenir Medium";
+  font-size: 30px;
+  line-height: 41px;
+
+  color: #252525;
+  padding: 100px 0 37px 0;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.thank-you-list {
+  font-family: "Avenir Book";
+  font-size: 24px;
+  line-height: 33px;
+
+  color: #252525;
+  padding: 0 40px 0 40px;
+}
+
+.thank-you-list li {
+  margin: 35px 0;
+}
+
+.thank-you-lists {
+  padding-bottom: 100px;
+}
+
+.logos-section {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.logos-section img {
+  padding: 10px 40px 10px 40px;
+}
