@@ -1,4 +1,7 @@
 .committee-section {
+  display: flex;
+  flex-flow: column nowrap;
+  
   padding: 46px 0 60px 0;
 }
 

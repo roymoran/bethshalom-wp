@@ -576,3 +576,7 @@ footer a {
 
   color: #ffffff;
 }
+
+.new-page-template-title {
+  text-transform: uppercase;
+}
