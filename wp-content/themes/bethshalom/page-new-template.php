@@ -15,7 +15,7 @@ if (have_posts()) {
         <section class="section committee-section">
             <?php
                 if (get_the_post_thumbnail_url()) {
-                    echo "<img src=".get_the_post_thumbnail_url()."alt='page-image' width='300px;' height='300px;' />";
+                    echo "<img src='".get_the_post_thumbnail_url()."' alt='page-image' width='300px;' height='300px;' />";
                 }
             ?>
             <div class="committee-info"><?php the_content() ?></div>
