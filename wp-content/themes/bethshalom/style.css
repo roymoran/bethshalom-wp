@@ -509,7 +509,7 @@ footer {
   min-height: 400px;
   flex-flow: row wrap;
   background-color: #387823;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
   color: #ffffff;
 }
