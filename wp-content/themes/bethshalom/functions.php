@@ -44,6 +44,10 @@ function load_stylesheets()
     // Enque stylesheet for history page
     wp_register_style('history-page', get_template_directory_uri() . '/assets/stylesheets/history.css', array(), false, 'all');
     wp_enqueue_style('history-page');
+
+    // Enque stylesheet for thank you page
+    wp_register_style('thank-you-page', get_template_directory_uri() . '/assets/stylesheets/thankyou.css', array(), false, 'all');
+    wp_enqueue_style('thank-you-page');
 }
 
 function register_my_menus()
