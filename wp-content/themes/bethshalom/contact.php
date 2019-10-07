@@ -6,7 +6,7 @@ if($_POST['contact-form-submit']) {
     $website = $_POST['website'];
     $subject = $_POST['subject'];
     $message = $_POST['message'];
-    $recipient = "romoran1@outlook.com";
+    $recipient = "bshalombz@sbcglobal.net";
      
     $headers  = 'MIME-Version: 1.0' . "\r\n"
     .'Content-type: text/html; charset=utf-8' . "\r\n"
