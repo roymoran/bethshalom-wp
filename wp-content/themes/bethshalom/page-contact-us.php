@@ -31,7 +31,7 @@ $message = $_POST['message_text'];
 $recaptcha = $_POST['g-recaptcha-response'];
 
 //php mailer variables
-$to = 'romoran1@outlook.com';
+$to = getenv("CONTACT_FORM_RECEPIENT_EMAIL");
 $subject = "Contact form: " . $subject;
 $headers = 'From: ' . $email . "\r\n" .
     'Reply-To: ' . $email . "\r\n";
